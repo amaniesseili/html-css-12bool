@@ -9,8 +9,6 @@
 .container{
     max-width: 1170px;
     margin: 0 auto;
-    /*  il border da cancellare */
-    border: 1px solid red;
 }
 /*------------------- Utillities ------------------- */
 .row{
