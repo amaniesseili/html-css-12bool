@@ -12,4 +12,15 @@
 }
 [ class*="col-"]{
     padding: 1rem;
+    font-size: 12px;
+}
+
+.col>.row,
+[ class*="col-"]>.row[ class*="col-"] {
+    padding: 1rem;
+}
+
+.col>.row,
+[ class*="col-"]>.row {
+    background-color: green;
 }
