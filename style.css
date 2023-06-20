@@ -20,7 +20,9 @@
     padding: 1rem;
 }
 
-.col>.row,
-[ class*="col-"]>.row {
-    background-color: green;
+.col>.row>.col,
+[ class*="col-"]>.row>[ class*="col-"] {
+    background-color: rgb(237, 243, 77);
+    color: black;
+    border: 1px solid black;
 }
